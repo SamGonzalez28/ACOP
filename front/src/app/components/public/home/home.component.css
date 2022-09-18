@@ -1,0 +1,325 @@
+.u-section-1 .u-sheet-1 {
+  min-height: 742px;
+}
+
+.u-section-1 .u-text-1 {
+  margin: 59px auto 0;
+}
+
+.u-section-1 .u-btn-1 {
+  border-style: none;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  letter-spacing: 1px;
+  background-image: none;
+  margin: 0 87px 0 auto;
+}
+
+.u-section-1 .u-form-1 {
+  height: 328px;
+  width: 786px;
+  margin: 17px auto 60px;
+}
+
+.u-section-1 .u-form-group-1 {
+  width: 100%;
+}
+
+.u-section-1 .u-form-group-2 {
+  width: 100%;
+}
+
+.u-section-1 .u-form-group-3 {
+  width: 100%;
+}
+
+.u-section-1 .u-form-group-4 {
+  width: 100%;
+}
+
+.u-section-1 .u-form-group-5 {
+  width: 100%;
+}
+
+.u-section-1 .u-btn-2 {
+  background-image: none;
+  border-style: none;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-btn-1 {
+    margin-right: 0;
+  }
+}
+
+.u-btn {
+  /*display: inline-block;*/
+  display: table;
+  /*TODO maye need another solution for negative marin*/
+  cursor: pointer;
+  color: inherit;
+  font-size: inherit;
+  font-family: inherit;
+  line-height: inherit;
+  letter-spacing: inherit;
+  text-transform: inherit;
+  font-style: inherit;
+  font-weight: inherit;
+  text-decoration: none;
+  border: 0 none transparent;
+  outline-width: 0;
+  background-color: transparent;
+  margin: 0;
+  -webkit-text-decoration-skip: objects;
+  font-style: initial;
+  white-space: nowrap;
+  -webkit-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  vertical-align: middle;
+  text-align: center;
+  padding: 10px 30px;
+  border-radius: 0;
+  align-self: flex-start;
+}
+.u-btn:focus,
+.u-btn:active:focus,
+.u-btn.active:focus {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+
+.u-border-none {
+  border-width: 0 !important;
+}
+.u-button-style[class*="u-border-"].u-border-no-top,
+[class*="u-border-"].u-border-no-top {
+  border-top-width: 0;
+  border-top-style: none;
+}
+.u-button-style[class*="u-border-"].u-border-no-right,
+[class*="u-border-"].u-border-no-right {
+  border-right-width: 0;
+  border-right-style: none;
+}
+.u-button-style[class*="u-border-"].u-border-no-bottom,
+[class*="u-border-"].u-border-no-bottom {
+  border-bottom-width: 0;
+  border-bottom-style: none;
+}
+.u-button-style[class*="u-border-"].u-border-no-left,
+[class*="u-border-"].u-border-no-left {
+  border-left-width: 0;
+  border-left-style: none;
+}
+.u-border-color-none {
+  background-color: transparent;
+}
+
+
+.u-custom-color-2,
+.u-body.u-custom-color-2,
+.u-custom-color-2 > .u-container-layout:before,
+.u-container-style.u-custom-color-2:before,
+.u-container-layout.u-container-layout.u-custom-color-2:before,
+.u-table-alt-custom-color-2 tr:nth-child(even)
+{
+    color: #ffffff;
+    background-color: #231974;
+}
+
+.u-button-style.u-custom-color-2,
+.u-button-style.u-custom-color-2[class*="u-border-"]
+{
+    color: #ffffff !important;
+    background-color: #231974 !important;
+}
+
+.u-button-style.u-custom-color-2:hover,
+.u-button-style.u-custom-color-2[class*="u-border-"]:hover,
+.u-button-style.u-custom-color-2:focus,
+.u-button-style.u-custom-color-2[class*="u-border-"]:focus,
+.u-button-style.u-button-style.u-custom-color-2:active,
+.u-button-style.u-button-style.u-custom-color-2[class*="u-border-"]:active,
+.u-button-style.u-button-style.u-custom-color-2.active,
+.u-button-style.u-button-style.u-custom-color-2[class*="u-border-"].active,
+li.active > .u-button-style.u-button-style.u-custom-color-2,
+li.active > .u-button-style.u-button-style.u-custom-color-2[class*="u-border-"]
+{
+    color: #ffffff !important;
+    background-color: #1f1768 !important;
+}
+
+.u-hover-custom-color-2:hover,
+.u-hover-custom-color-2[class*="u-border-"]:hover,
+.u-hover-custom-color-2:focus,
+.u-hover-custom-color-2[class*="u-border-"]:focus,
+.u-active-custom-color-2.u-active.u-active,
+.u-active-custom-color-2[class*="u-border-"].u-active.u-active,
+a.u-button-style.u-hover-custom-color-2:hover,
+a.u-button-style.u-hover-custom-color-2[class*="u-border-"]:hover,
+a.u-button-style:hover > .u-hover-custom-color-2,
+a.u-button-style:hover > .u-hover-custom-color-2[class*="u-border-"],
+a.u-button-style.u-hover-custom-color-2:focus,
+a.u-button-style.u-hover-custom-color-2[class*="u-border-"]:focus,
+a.u-button-style.u-button-style.u-active-custom-color-2:active,
+a.u-button-style.u-button-style.u-active-custom-color-2[class*="u-border-"]:active,
+a.u-button-style.u-button-style.u-active-custom-color-2.active,
+a.u-button-style.u-button-style.u-active-custom-color-2[class*="u-border-"].active,
+a.u-button-style.u-button-style.active > .u-active-custom-color-2,
+a.u-button-style.u-button-style.active > .u-active-custom-color-2[class*="u-border-"],
+li.active > a.u-button-style.u-button-style.u-active-custom-color-2,
+li.active > a.u-button-style.u-button-style.u-active-custom-color-2[class*="u-border-"]
+{
+    color: #ffffff !important;
+    background-color: #231974 !important;
+}
+
+a.u-link.u-hover-custom-color-2:hover {
+    color: #231974 !important;
+}
+
+
+
+.u-custom-color-3,
+.u-body.u-custom-color-3,
+.u-custom-color-3 > .u-container-layout:before,
+.u-container-style.u-custom-color-3:before,
+.u-container-layout.u-container-layout.u-custom-color-3:before,
+.u-table-alt-custom-color-3 tr:nth-child(even)
+{
+    color: #ffffff;
+    background-color: #bb1d1d;
+}
+
+.u-button-style.u-custom-color-3,
+.u-button-style.u-custom-color-3[class*="u-border-"]
+{
+    color: #ffffff !important;
+    background-color: #bb1d1d !important;
+}
+
+.u-button-style.u-custom-color-3:hover,
+.u-button-style.u-custom-color-3[class*="u-border-"]:hover,
+.u-button-style.u-custom-color-3:focus,
+.u-button-style.u-custom-color-3[class*="u-border-"]:focus,
+.u-button-style.u-button-style.u-custom-color-3:active,
+.u-button-style.u-button-style.u-custom-color-3[class*="u-border-"]:active,
+.u-button-style.u-button-style.u-custom-color-3.active,
+.u-button-style.u-button-style.u-custom-color-3[class*="u-border-"].active,
+li.active > .u-button-style.u-button-style.u-custom-color-3,
+li.active > .u-button-style.u-button-style.u-custom-color-3[class*="u-border-"]
+{
+    color: #ffffff !important;
+    background-color: #a81a1a !important;
+}
+
+.u-hover-custom-color-3:hover,
+.u-hover-custom-color-3[class*="u-border-"]:hover,
+.u-hover-custom-color-3:focus,
+.u-hover-custom-color-3[class*="u-border-"]:focus,
+.u-active-custom-color-3.u-active.u-active,
+.u-active-custom-color-3[class*="u-border-"].u-active.u-active,
+a.u-button-style.u-hover-custom-color-3:hover,
+a.u-button-style.u-hover-custom-color-3[class*="u-border-"]:hover,
+a.u-button-style:hover > .u-hover-custom-color-3,
+a.u-button-style:hover > .u-hover-custom-color-3[class*="u-border-"],
+a.u-button-style.u-hover-custom-color-3:focus,
+a.u-button-style.u-hover-custom-color-3[class*="u-border-"]:focus,
+a.u-button-style.u-button-style.u-active-custom-color-3:active,
+a.u-button-style.u-button-style.u-active-custom-color-3[class*="u-border-"]:active,
+a.u-button-style.u-button-style.u-active-custom-color-3.active,
+a.u-button-style.u-button-style.u-active-custom-color-3[class*="u-border-"].active,
+a.u-button-style.u-button-style.active > .u-active-custom-color-3,
+a.u-button-style.u-button-style.active > .u-active-custom-color-3[class*="u-border-"],
+li.active > a.u-button-style.u-button-style.u-active-custom-color-3,
+li.active > a.u-button-style.u-button-style.u-active-custom-color-3[class*="u-border-"]
+{
+    color: #ffffff !important;
+    background-color: #bb1d1d !important;
+}
+
+a.u-link.u-hover-custom-color-3:hover {
+    color: #bb1d1d !important;
+}
+
+.u-hover-palette-1-light-1:hover,
+.u-hover-palette-1-light-1[class*="u-border-"]:hover,
+.u-hover-palette-1-light-1:focus,
+.u-hover-palette-1-light-1[class*="u-border-"]:focus,
+.u-active-palette-1-light-1.u-active.u-active,
+.u-active-palette-1-light-1[class*="u-border-"].u-active.u-active,
+a.u-button-style.u-hover-palette-1-light-1:hover,
+a.u-button-style.u-hover-palette-1-light-1[class*="u-border-"]:hover,
+a.u-button-style:hover > .u-hover-palette-1-light-1,
+a.u-button-style:hover > .u-hover-palette-1-light-1[class*="u-border-"],
+a.u-button-style.u-hover-palette-1-light-1:focus,
+a.u-button-style.u-hover-palette-1-light-1[class*="u-border-"]:focus,
+a.u-button-style.u-button-style.u-active-palette-1-light-1:active,
+a.u-button-style.u-button-style.u-active-palette-1-light-1[class*="u-border-"]:active,
+a.u-button-style.u-button-style.u-active-palette-1-light-1.active,
+a.u-button-style.u-button-style.u-active-palette-1-light-1[class*="u-border-"].active,
+a.u-button-style.u-button-style.active > .u-active-palette-1-light-1,
+a.u-button-style.u-button-style.active > .u-active-palette-1-light-1[class*="u-border-"],
+li.active > a.u-button-style.u-button-style.u-active-palette-1-light-1,
+li.active > a.u-button-style.u-button-style.u-active-palette-1-light-1[class*="u-border-"] {
+  color: #ffffff !important;
+  background-color: #77aad9 !important;}
+
+  .u-bottom-left-radius-49,
+.u-bottom-left-radius-49:before,
+.u-bottom-left-radius-49 .u-background-effect,
+.u-bottom-left-radius-49:not(.u-hover-box) > .u-container-layout {
+  border-bottom-left-radius: 49px !important;
+}
+.u-radius-50,
+.u-radius-50:before,
+.u-radius-50 .u-background-effect,
+.u-radius-50:not(.u-hover-box) > .u-container-layout {
+  border-radius: 50px !important;
+}
+.u-top-left-radius-50,
+.u-top-left-radius-50:before,
+.u-top-left-radius-50 .u-background-effect,
+.u-top-left-radius-50:not(.u-hover-box) > .u-container-layout {
+  border-top-left-radius: 50px !important;
+}
+.u-top-right-radius-50,
+.u-top-right-radius-50:before,
+.u-top-right-radius-50 .u-background-effect,
+.u-top-right-radius-50:not(.u-hover-box) > .u-container-layout {
+  border-top-right-radius: 50px !important;
+}
+.u-bottom-right-radius-50,
+.u-bottom-right-radius-50:before,
+.u-bottom-right-radius-50 .u-background-effect,
+.u-bottom-right-radius-50:not(.u-hover-box) > .u-container-layout {
+  border-bottom-right-radius: 50px !important;
+}
+.u-bottom-left-radius-50,
+.u-bottom-left-radius-50:before,
+.u-bottom-left-radius-50 .u-background-effect,
+.u-bottom-left-radius-50:not(.u-hover-box) > .u-container-layout {
+  border-bottom-left-radius: 50px !important;
+}
+/*begin-variables font-family*/
+.u-body {
+  font-family: 'Open Sans',sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Roboto,sans-serif;
+}
+/*end-variables font-family*/
+/*begin-variables color*/
+.u-overlap.u-overlap-transparent .u-header,
+.u-image,
+.u-gradient {
+  color: #111111;
+}
